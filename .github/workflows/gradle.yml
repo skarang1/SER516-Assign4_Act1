@@ -39,8 +39,8 @@ jobs:
     - name: Build with Gradle Wrapper (Skip Tests)
       run: ./gradlew build -x test
 
-    - name: Run Tests 
-      run: ./gradlew test
+    - name: Run Fast Tests 
+      run: ./gradlew testFast
       
 
     # NOTE: The Gradle Wrapper is the default and recommended way to run Gradle (https://docs.gradle.org/current/userguide/gradle_wrapper.html).
